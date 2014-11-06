@@ -1,4 +1,4 @@
 PlayGround
 ==========
 
-Playgorund projects
+Playground projects
