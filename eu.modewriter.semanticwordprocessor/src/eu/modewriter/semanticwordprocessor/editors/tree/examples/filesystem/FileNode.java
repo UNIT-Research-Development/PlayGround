@@ -1,4 +1,4 @@
-package eu.modewriter.semanticwordprocessor.editors.tree.examples;
+package eu.modewriter.semanticwordprocessor.editors.tree.examples.filesystem;
 
 import java.io.File;
 import java.util.List;
@@ -24,7 +24,7 @@ public class FileNode extends TreeNode {
 		return null; /* TODO: Return File image */
 	}
 
-	protected void createChildren(List children) {
+	protected void createChildren(List<TreeNode> children) {
 	}
 
 	public boolean hasChildren() {

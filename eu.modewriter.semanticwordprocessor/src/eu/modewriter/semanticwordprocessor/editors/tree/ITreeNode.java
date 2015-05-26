@@ -9,7 +9,7 @@ public interface ITreeNode {
 
 	public Image getImage();
 
-	public List getChildren();
+	public List<? extends ITreeNode> getChildren();
 
 	public boolean hasChildren();
 

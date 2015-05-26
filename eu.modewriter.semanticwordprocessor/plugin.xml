@@ -5,8 +5,8 @@
    <extension point="org.eclipse.ui.editors">
       <editor
             name="ModelWriter XML Editor"
-            extensions="xml"
-            icon="icons/sample.gif"
+            extensions="mw"
+            icon="icons/modelwriter.gif"
             contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
             class="eu.modewriter.semanticwordprocessor.editors.XMLEditor"
             id="eu.modewriter.semanticwordprocessor.editors.XMLEditor">
